@@ -1,0 +1,45 @@
+.Sidedrawer{
+    top:0;
+    left:0;
+    position:fixed;
+    height:100%;
+    width:280px;
+    max-width: 70%;
+    background-color: white;
+    z-index: 200;
+    padding:32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+@media(min-width:500px){
+    .Sidedrawer{
+        display: none;
+    }
+}
+
+.Open{
+transform: translateX(0);
+}
+
+.Close{
+transform: translateX(-100%);
+}
+
+.Logo{
+    height:11%;
+}
+
+.CloseBtn{
+    background-color: transparent;
+    position: absolute;
+    right:10px;
+    top:10px;
+    outline:none;
+     border:none;
+    cursor: pointer;
+    font-weight: bold;
+    color:blue
+}
+
+

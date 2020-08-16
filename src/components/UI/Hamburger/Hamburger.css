@@ -1,0 +1,15 @@
+.Hamburger{
+    cursor: pointer;
+}
+.stripe{
+    background-color: white;
+    width: 18px;
+    height:5px;
+    margin:2px auto;
+    display:block;
+}
+@media (min-width: 500px) {
+    .stripe {
+        display: none;
+    }
+}
